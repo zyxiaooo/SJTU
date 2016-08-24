@@ -1,0 +1,10 @@
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\third_party\fatfs\port\mmc-dk-lm3s9b96.c
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\inc/hw_memmap.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\inc/hw_types.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\driverlib/gpio.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\driverlib/pin_map.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\driverlib/ssi.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\driverlib/sysctl.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\third_party\fatfs/src/diskio.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\..\..\third_party\fatfs/src/integer.h
+.\rvmdk\mmc-dk-lm3s9b96.o: ..\drivers/ssi_hw.h

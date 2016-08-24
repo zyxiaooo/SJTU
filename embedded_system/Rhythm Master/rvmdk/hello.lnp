@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\rvmdk\kitronix320x240x16_ssd2119_8bit.o" ".\rvmdk\set_pinout.o" ".\rvmdk\startup_rvmdk.o" ".\rvmdk\touch.o" ".\rvmdk\ff.o" ".\rvmdk\mmc-dk-lm3s9b96.o" ".\rvmdk\uart.o" ".\rvmdk\gpio.o" ".\rvmdk\ustdlib.o" ".\rvmdk\tlv320aic23b.o" ".\rvmdk\sound.o" ".\rvmdk\rhythm.o" ".\rvmdk\slider.o" "..\..\..\driverlib\rvmdk-cm3\driverlib-cm3.lib" "..\..\..\grlib\rvmdk-cm3\grlib-cm3.5.1.lib" --library_type=microlib --strict --scatter "hello.sct" 
+--entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rvmdk\hello.map" -o ".\rvmdk\hello.axf"

@@ -1,0 +1,33 @@
+*** Creating Trace Output File '.\rvmdk\hello.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\rvmdk\kitronix320x240x16_ssd2119_8bit.o"'
+### List of Objects: adding '".\rvmdk\set_pinout.o"'
+### List of Objects: adding '".\rvmdk\startup_rvmdk.o"'
+### List of Objects: adding '".\rvmdk\touch.o"'
+### List of Objects: adding '".\rvmdk\ff.o"'
+### List of Objects: adding '".\rvmdk\mmc-dk-lm3s9b96.o"'
+### List of Objects: adding '".\rvmdk\uart.o"'
+### List of Objects: adding '".\rvmdk\gpio.o"'
+### List of Objects: adding '".\rvmdk\ustdlib.o"'
+### List of Objects: adding '".\rvmdk\tlv320aic23b.o"'
+### List of Objects: adding '".\rvmdk\sound.o"'
+### List of Objects: adding '".\rvmdk\rhythm.o"'
+### List of Objects: adding '".\rvmdk\slider.o"'
+### List of Objects: adding '"..\..\..\driverlib\rvmdk-cm3\driverlib-cm3.lib"'
+### List of Objects: adding '"..\..\..\grlib\rvmdk-cm3\grlib-cm3.5.1.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\rvmdk\kitronix320x240x16_ssd2119_8bit.o" ".\rvmdk\set_pinout.o" ".\rvmdk\startup_rvmdk.o" ".\rvmdk\touch.o" ".\rvmdk\ff.o" ".\rvmdk\mmc-dk-lm3s9b96.o" ".\rvmdk\uart.o" ".\rvmdk\gpio.o" ".\rvmdk\ustdlib.o" ".\rvmdk\tlv320aic23b.o" ".\rvmdk\sound.o" ".\rvmdk\rhythm.o" ".\rvmdk\slider.o" "..\..\..\driverlib\rvmdk-cm3\driverlib-cm3.lib" "..\..\..\grlib\rvmdk-cm3\grlib-cm3.5.1.lib" --library_type=microlib --strict --scatter "hello.sct" 
+--entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rvmdk\hello.map" -o ".\rvmdk\hello.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\rvmdk\hello.axf'
+### ADS-LD Command File: '.\rvmdk\hello.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\rvmdk\hello.lnp', Handle=0x000002BC
+### Writing '.lnp' file
+### ADS-LD Command file '.\rvmdk\hello.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

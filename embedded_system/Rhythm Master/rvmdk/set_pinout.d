@@ -1,0 +1,13 @@
+.\rvmdk\set_pinout.o: ..\drivers\set_pinout.c
+.\rvmdk\set_pinout.o: ..\..\..\inc/hw_gpio.h
+.\rvmdk\set_pinout.o: ..\..\..\inc/hw_memmap.h
+.\rvmdk\set_pinout.o: ..\..\..\inc/hw_types.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/debug.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/epi.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/gpio.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/pin_map.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/i2c.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/sysctl.h
+.\rvmdk\set_pinout.o: ..\..\..\driverlib/rom.h
+.\rvmdk\set_pinout.o: ..\drivers\set_pinout.h
+.\rvmdk\set_pinout.o: ..\drivers\camerafpga.h
