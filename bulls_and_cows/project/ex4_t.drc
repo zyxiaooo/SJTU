@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sat Apr 18 19:12:36 2015
+
+drc -z ex4_t.ncd ex4_t.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Documents and Settings\ex9\ex4_t.ncd
+OUTFILE=C:\Documents and Settings\ex9\ex4_t.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Documents and Settings\ex9
+LICENSE=WebPack
+USER_INFO=210865490_0_0_815

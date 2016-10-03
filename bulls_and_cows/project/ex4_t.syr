@@ -1,0 +1,768 @@
+Release 14.2 - xst P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: ex4_t.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ex4_t.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ex4_t"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : ex4_t
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ex9.v" in library work
+Module <ex4_s> compiled
+Module <ex4_t> compiled
+No errors in compilation
+Analysis of file <"ex4_t.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <ex4_t> in library <work>.
+
+Analyzing hierarchy for module <ex4_s> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ex4_t>.
+Module <ex4_t> is correct for synthesis.
+ 
+Analyzing module <ex4_s> in library <work>.
+Module <ex4_s> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ex4_s>.
+    Related source file is "ex9.v".
+    Found 16x7-bit ROM for signal <a_to_g>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <ex4_s> synthesized.
+
+
+Synthesizing Unit <ex4_t>.
+    Related source file is "ex9.v".
+WARNING:Xst:1780 - Signal <t<16>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit register for signal <light>.
+    Found 4-bit adder for signal <$add0000> created at line 168.
+    Found 4-bit adder for signal <$add0001> created at line 169.
+    Found 4-bit adder for signal <$add0002> created at line 170.
+    Found 4-bit adder for signal <$add0003> created at line 171.
+    Found 4-bit adder for signal <$add0004> created at line 172.
+    Found 4-bit adder for signal <$add0005> created at line 173.
+    Found 4-bit adder for signal <$add0006> created at line 174.
+    Found 4-bit adder for signal <$add0007> created at line 175.
+    Found 4-bit adder for signal <$add0008> created at line 176.
+    Found 4-bit adder for signal <$add0009> created at line 177.
+    Found 4-bit adder for signal <$add0010> created at line 178.
+    Found 4-bit adder for signal <$add0011> created at line 179.
+    Found 4-bit adder for signal <$add0012> created at line 180.
+    Found 4-bit adder for signal <$add0013> created at line 181.
+    Found 4-bit adder for signal <$add0014> created at line 182.
+    Found 4-bit adder for signal <$add0015> created at line 183.
+    Found 4-bit adder for signal <$add0016> created at line 184.
+    Found 4-bit adder for signal <$add0017> created at line 185.
+    Found 4-bit adder for signal <$add0018> created at line 186.
+    Found 4-bit adder for signal <$add0019> created at line 187.
+    Found 4-bit adder for signal <$add0020> created at line 188.
+    Found 4-bit adder for signal <$add0021> created at line 189.
+    Found 4-bit adder for signal <$add0022> created at line 190.
+    Found 4-bit adder for signal <$add0023> created at line 191.
+    Found 4-bit adder for signal <$add0024> created at line 192.
+    Found 4-bit adder for signal <$add0025> created at line 193.
+    Found 4-bit adder for signal <$add0026> created at line 194.
+    Found 4-bit subtractor for signal <$sub0000> created at line 160.
+    Found 4-bit subtractor for signal <$sub0001> created at line 161.
+    Found 4-bit subtractor for signal <$sub0002> created at line 162.
+    Found 4-bit subtractor for signal <$sub0003> created at line 163.
+    Found 4-bit register for signal <an>.
+    Found 4-bit register for signal <answer1>.
+    Found 4-bit comparator equal for signal <answer1$cmp_eq0000> created at line 194.
+    Found 4-bit comparator equal for signal <answer1$cmp_eq0001> created at line 194.
+    Found 4-bit comparator equal for signal <answer1$cmp_eq0002> created at line 194.
+    Found 4-bit register for signal <answer2>.
+    Found 4-bit register for signal <answer3>.
+    Found 4-bit register for signal <answer4>.
+    Found 24-bit up counter for signal <clk_cnt>.
+    Found 26-bit register for signal <delay>.
+    Found 4-bit register for signal <equal>.
+    Found 3-bit comparator less for signal <equal_3$cmp_lt0000> created at line 205.
+    Found 1-bit register for signal <flag>.
+    Found 1-bit register for signal <flag1>.
+    Found 4-bit register for signal <life>.
+    Found 4-bit comparator greater for signal <mux0000$cmp_gt0000> created at line 163.
+    Found 4-bit comparator less for signal <mux0000$cmp_lt0000> created at line 167.
+    Found 4-bit comparator greater for signal <mux0004$cmp_gt0000> created at line 162.
+    Found 4-bit comparator less for signal <mux0004$cmp_lt0000> created at line 166.
+    Found 4-bit comparator equal for signal <mux0008$cmp_eq0000> created at line 168.
+    Found 4-bit comparator equal for signal <mux0012$cmp_eq0000> created at line 169.
+    Found 4-bit comparator equal for signal <mux0016$cmp_eq0000> created at line 170.
+    Found 4-bit comparator equal for signal <mux0020$cmp_eq0000> created at line 171.
+    Found 4-bit comparator equal for signal <mux0024$cmp_eq0000> created at line 172.
+    Found 4-bit comparator equal for signal <mux0028$cmp_eq0000> created at line 173.
+    Found 4-bit comparator equal for signal <mux0032$cmp_eq0000> created at line 174.
+    Found 4-bit comparator equal for signal <mux0036$cmp_eq0000> created at line 175.
+    Found 4-bit comparator greater for signal <mux0040$cmp_gt0000> created at line 161.
+    Found 4-bit comparator less for signal <mux0040$cmp_lt0000> created at line 165.
+    Found 4-bit comparator equal for signal <mux0044$cmp_eq0000> created at line 176.
+    Found 4-bit comparator equal for signal <mux0048$cmp_eq0000> created at line 177.
+    Found 4-bit comparator equal for signal <mux0048$cmp_eq0001> created at line 177.
+    Found 4-bit comparator equal for signal <mux0052$cmp_eq0000> created at line 178.
+    Found 4-bit comparator equal for signal <mux0052$cmp_eq0001> created at line 178.
+    Found 4-bit comparator equal for signal <mux0056$cmp_eq0000> created at line 179.
+    Found 4-bit comparator equal for signal <mux0056$cmp_eq0001> created at line 179.
+    Found 4-bit comparator equal for signal <mux0060$cmp_eq0000> created at line 180.
+    Found 4-bit comparator equal for signal <mux0060$cmp_eq0001> created at line 180.
+    Found 4-bit comparator equal for signal <mux0064$cmp_eq0000> created at line 181.
+    Found 4-bit comparator equal for signal <mux0064$cmp_eq0001> created at line 181.
+    Found 4-bit comparator equal for signal <mux0068$cmp_eq0000> created at line 182.
+    Found 4-bit comparator equal for signal <mux0068$cmp_eq0001> created at line 182.
+    Found 4-bit comparator equal for signal <mux0072$cmp_eq0000> created at line 183.
+    Found 4-bit comparator equal for signal <mux0072$cmp_eq0001> created at line 183.
+    Found 4-bit comparator equal for signal <mux0076$cmp_eq0000> created at line 184.
+    Found 4-bit comparator equal for signal <mux0076$cmp_eq0001> created at line 184.
+    Found 4-bit comparator greater for signal <mux0080$cmp_gt0000> created at line 160.
+    Found 4-bit comparator less for signal <mux0080$cmp_lt0000> created at line 164.
+    Found 4-bit comparator equal for signal <mux0084$cmp_eq0000> created at line 185.
+    Found 4-bit comparator equal for signal <mux0084$cmp_eq0001> created at line 185.
+    Found 4-bit comparator equal for signal <mux0088$cmp_eq0000> created at line 186.
+    Found 4-bit comparator equal for signal <mux0088$cmp_eq0001> created at line 186.
+    Found 4-bit comparator equal for signal <mux0088$cmp_eq0002> created at line 186.
+    Found 4-bit comparator equal for signal <mux0092$cmp_eq0000> created at line 187.
+    Found 4-bit comparator equal for signal <mux0092$cmp_eq0001> created at line 187.
+    Found 4-bit comparator equal for signal <mux0092$cmp_eq0002> created at line 187.
+    Found 4-bit comparator equal for signal <mux0096$cmp_eq0000> created at line 188.
+    Found 4-bit comparator equal for signal <mux0096$cmp_eq0001> created at line 188.
+    Found 4-bit comparator equal for signal <mux0096$cmp_eq0002> created at line 188.
+    Found 4-bit comparator equal for signal <mux0100$cmp_eq0000> created at line 189.
+    Found 4-bit comparator equal for signal <mux0100$cmp_eq0001> created at line 189.
+    Found 4-bit comparator equal for signal <mux0100$cmp_eq0002> created at line 189.
+    Found 4-bit comparator equal for signal <mux0104$cmp_eq0000> created at line 190.
+    Found 4-bit comparator equal for signal <mux0104$cmp_eq0001> created at line 190.
+    Found 4-bit comparator equal for signal <mux0104$cmp_eq0002> created at line 190.
+    Found 4-bit comparator equal for signal <mux0108$cmp_eq0000> created at line 191.
+    Found 4-bit comparator equal for signal <mux0108$cmp_eq0001> created at line 191.
+    Found 4-bit comparator equal for signal <mux0108$cmp_eq0002> created at line 191.
+    Found 4-bit comparator equal for signal <mux0112$cmp_eq0000> created at line 192.
+    Found 4-bit comparator equal for signal <mux0112$cmp_eq0001> created at line 192.
+    Found 4-bit comparator equal for signal <mux0112$cmp_eq0002> created at line 192.
+    Found 4-bit comparator equal for signal <mux0116$cmp_eq0000> created at line 193.
+    Found 4-bit comparator equal for signal <mux0116$cmp_eq0001> created at line 193.
+    Found 4-bit comparator equal for signal <mux0116$cmp_eq0002> created at line 193.
+    Found 4-bit comparator equal for signal <mux0120$cmp_eq0000> created at line 239.
+    Found 4-bit comparator equal for signal <mux0120$cmp_eq0001> created at line 238.
+    Found 4-bit comparator equal for signal <mux0120$cmp_eq0002> created at line 236.
+    Found 4-bit comparator equal for signal <mux0121$cmp_eq0000> created at line 237.
+    Found 4-bit comparator equal for signal <mux0121$cmp_eq0001> created at line 235.
+    Found 4-bit comparator equal for signal <mux0122$cmp_eq0000> created at line 234.
+    Found 4-bit register for signal <NUM>.
+    Found 3-bit comparator greatequal for signal <NUM$cmp_ge0000> created at line 322.
+    Found 26-bit adder for signal <old_delay_12$addsub0000> created at line 285.
+    Found 4-bit subtractor for signal <old_life_8$addsub0000> created at line 246.
+    Found 4-bit comparator greater for signal <old_life_8$cmp_gt0000> created at line 246.
+    Found 3-bit adder for signal <old_rightnum_9$add0000> created at line 258.
+    Found 2-bit adder for signal <old_rightnum_9$addsub0001> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0003> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0004> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0005> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0006> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0007> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0008> created at line 258.
+    Found 3-bit adder for signal <old_rightnum_9$addsub0009> created at line 258.
+    Found 1-bit adder carry out for signal <old_rightnum_9$addsub0010> created at line 258.
+    Found 2-bit adder carry out for signal <old_rightnum_9$addsub0011> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0000> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0001> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0002> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0003> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0004> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0005> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0006> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0007> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0008> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0009> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0010> created at line 258.
+    Found 4-bit comparator equal for signal <old_rightnum_9$cmp_eq0011> created at line 258.
+    Found 2-bit adder for signal <old_rightpos_10$addsub0001> created at line 257.
+    Found 2-bit adder carry out for signal <old_rightpos_10$addsub0002>.
+    Found 1-bit adder carry out for signal <old_rightpos_10$addsub0003> created at line 257.
+    Found 4-bit comparator equal for signal <old_rightpos_10$cmp_eq0000> created at line 257.
+    Found 4-bit comparator equal for signal <old_rightpos_10$cmp_eq0001> created at line 257.
+    Found 4-bit comparator equal for signal <old_rightpos_10$cmp_eq0002> created at line 257.
+    Found 4-bit comparator equal for signal <old_rightpos_10$cmp_eq0003> created at line 257.
+    Found 4-bit adder for signal <old_temp_1_1$add0000> created at line 96.
+    Found 4-bit adder for signal <old_temp_2_2$add0000> created at line 108.
+    Found 4-bit adder for signal <old_temp_3_3$add0000> created at line 120.
+    Found 4-bit adder for signal <old_temp_4_4$add0000> created at line 132.
+    Found 17-bit up counter for signal <r>.
+    Found 3-bit register for signal <rightnum>.
+    Found 3-bit register for signal <rightpos>.
+    Found 17-bit up counter for signal <s>.
+    Found 16-bit register for signal <t<15:0>>.
+    Found 4-bit up counter for signal <temp_1>.
+    Found 4-bit up counter for signal <temp_2>.
+    Found 4-bit up counter for signal <temp_3>.
+    Found 4-bit up counter for signal <temp_4>.
+    Summary:
+	inferred   7 Counter(s).
+	inferred  90 D-type flip-flop(s).
+	inferred  53 Adder/Subtractor(s).
+	inferred  87 Comparator(s).
+Unit <ex4_t> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 53
+ 1-bit adder carry out                                 : 2
+ 17-bit adder                                          : 2
+ 2-bit adder                                           : 2
+ 2-bit adder carry out                                 : 2
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 8
+ 4-bit adder                                           : 31
+ 4-bit subtractor                                      : 5
+# Counters                                             : 7
+ 17-bit up counter                                     : 2
+ 24-bit up counter                                     : 1
+ 4-bit up counter                                      : 4
+# Registers                                            : 36
+ 1-bit register                                        : 26
+ 26-bit register                                       : 1
+ 3-bit register                                        : 2
+ 4-bit register                                        : 6
+ 8-bit register                                        : 1
+# Comparators                                          : 87
+ 3-bit comparator greatequal                           : 1
+ 3-bit comparator less                                 : 1
+ 4-bit comparator equal                                : 76
+ 4-bit comparator greater                              : 5
+ 4-bit comparator less                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 53
+ 1-bit adder carry out                                 : 2
+ 17-bit adder                                          : 2
+ 2-bit adder                                           : 2
+ 2-bit adder carry out                                 : 2
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 8
+ 4-bit adder                                           : 31
+ 4-bit subtractor                                      : 5
+# Counters                                             : 7
+ 17-bit up counter                                     : 2
+ 24-bit up counter                                     : 1
+ 4-bit up counter                                      : 4
+# Registers                                            : 90
+ Flip-Flops                                            : 90
+# Comparators                                          : 87
+ 3-bit comparator greatequal                           : 1
+ 3-bit comparator less                                 : 1
+ 4-bit comparator equal                                : 76
+ 4-bit comparator greater                              : 5
+ 4-bit comparator less                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <t_15> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer4_3> 
+INFO:Xst:2261 - The FF/Latch <t_14> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer4_2> 
+INFO:Xst:2261 - The FF/Latch <t_13> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer4_1> 
+INFO:Xst:2261 - The FF/Latch <t_12> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer4_0> 
+INFO:Xst:2261 - The FF/Latch <t_11> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer3_3> 
+INFO:Xst:2261 - The FF/Latch <t_10> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer3_2> 
+INFO:Xst:2261 - The FF/Latch <t_9> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer3_1> 
+INFO:Xst:2261 - The FF/Latch <t_8> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer3_0> 
+INFO:Xst:2261 - The FF/Latch <t_3> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer1_3> 
+INFO:Xst:2261 - The FF/Latch <t_2> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer1_2> 
+INFO:Xst:2261 - The FF/Latch <t_1> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer1_1> 
+INFO:Xst:2261 - The FF/Latch <t_0> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer1_0> 
+INFO:Xst:2261 - The FF/Latch <t_7> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer2_3> 
+INFO:Xst:2261 - The FF/Latch <t_6> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer2_2> 
+INFO:Xst:2261 - The FF/Latch <t_5> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer2_1> 
+INFO:Xst:2261 - The FF/Latch <t_4> in Unit <ex4_t> is equivalent to the following FF/Latch, which will be removed : <answer2_0> 
+
+Optimizing unit <ex4_t> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ex4_t, actual ratio is 45.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 148
+ Flip-Flops                                            : 148
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ex4_t.ngr
+Top Level Output File Name         : ex4_t
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+# BELS                             : 1344
+#      GND                         : 1
+#      INV                         : 12
+#      LUT1                        : 112
+#      LUT2                        : 58
+#      LUT2_D                      : 3
+#      LUT2_L                      : 8
+#      LUT3                        : 85
+#      LUT3_D                      : 13
+#      LUT3_L                      : 12
+#      LUT4                        : 586
+#      LUT4_D                      : 134
+#      LUT4_L                      : 77
+#      MUXCY                       : 112
+#      MUXF5                       : 44
+#      VCC                         : 1
+#      XORCY                       : 86
+# FlipFlops/Latches                : 148
+#      FD                          : 24
+#      FDE                         : 63
+#      FDR                         : 17
+#      FDRE                        : 44
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 10
+#      OBUF                        : 19
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      573  out of    960    59%  
+ Number of Slice Flip Flops:            148  out of   1920     7%  
+ Number of 4 input LUTs:               1100  out of   1920    57%  
+ Number of IOs:                          30
+ Number of bonded IOBs:                  30  out of     83    36%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 116   |
+clk_cnt_231                        | BUFG                   | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 91.239ns (Maximum Frequency: 10.960MHz)
+   Minimum input arrival time before clock: 9.606ns
+   Maximum output required time after clock: 5.406ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 12.208ns (frequency: 81.911MHz)
+  Total number of paths / destination ports: 3387 / 207
+-------------------------------------------------------------------------
+Delay:               12.208ns (Levels of Logic = 34)
+  Source:            delay_1 (FF)
+  Destination:       NUM_2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: delay_1 to NUM_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.514   0.532  delay_1 (delay_1)
+     LUT1:I0->O            1   0.612   0.000  Madd_old_delay_12_addsub0000_cy<1>_rt (Madd_old_delay_12_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Madd_old_delay_12_addsub0000_cy<1> (Madd_old_delay_12_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<2> (Madd_old_delay_12_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<3> (Madd_old_delay_12_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<4> (Madd_old_delay_12_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<5> (Madd_old_delay_12_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<6> (Madd_old_delay_12_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<7> (Madd_old_delay_12_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<8> (Madd_old_delay_12_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<9> (Madd_old_delay_12_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<10> (Madd_old_delay_12_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<11> (Madd_old_delay_12_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<12> (Madd_old_delay_12_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<13> (Madd_old_delay_12_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<14> (Madd_old_delay_12_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<15> (Madd_old_delay_12_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<16> (Madd_old_delay_12_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<17> (Madd_old_delay_12_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<18> (Madd_old_delay_12_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<19> (Madd_old_delay_12_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<20> (Madd_old_delay_12_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<21> (Madd_old_delay_12_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<22> (Madd_old_delay_12_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_old_delay_12_addsub0000_cy<23> (Madd_old_delay_12_addsub0000_cy<23>)
+     MUXCY:CI->O           0   0.052   0.000  Madd_old_delay_12_addsub0000_cy<24> (Madd_old_delay_12_addsub0000_cy<24>)
+     XORCY:CI->O           2   0.699   0.410  Madd_old_delay_12_addsub0000_xor<25> (old_delay_12_addsub0000<25>)
+     LUT3:I2->O            4   0.612   0.651  _old_delay_12<25>1 (_old_delay_12<25>)
+     LUT3:I0->O            5   0.612   0.690  NUM_mux0000<1>52 (N8)
+     LUT4:I0->O            1   0.612   0.000  NUM_mux0000<2>101_SW01 (NUM_mux0000<2>101_SW0)
+     MUXF5:I1->O           1   0.278   0.360  NUM_mux0000<2>101_SW0_f5 (N1028)
+     LUT4:I3->O            1   0.612   0.426  NUM_mux0000<2>101 (NUM_mux0000<2>101)
+     LUT2:I1->O            1   0.612   0.509  NUM_mux0000<2>107 (NUM_mux0000<2>107)
+     LUT4:I0->O            1   0.612   0.387  NUM_mux0000<2>148 (NUM_mux0000<2>148)
+     LUT4:I2->O            1   0.612   0.000  NUM_mux0000<2>157 (NUM_mux0000<2>)
+     FDE:D                     0.268          NUM_2
+    ----------------------------------------
+    Total                     12.208ns (8.244ns logic, 3.965ns route)
+                                       (67.5% logic, 32.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_cnt_231'
+  Clock period: 91.239ns (frequency: 10.960MHz)
+  Total number of paths / destination ports: 523733290457581740000000000000 / 48
+-------------------------------------------------------------------------
+Delay:               91.239ns (Levels of Logic = 80)
+  Source:            t_15 (FF)
+  Destination:       t_3 (FF)
+  Source Clock:      clk_cnt_231 rising
+  Destination Clock: clk_cnt_231 rising
+
+  Data Path: t_15 to t_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              8   0.514   0.646  t_15 (t_15)
+     LUT4:I3->O            3   0.612   0.520  _mux0000_1 (_mux00001)
+     LUT4:I1->O            5   0.612   0.568  mux0008_cmp_eq0000426 (mux0008_cmp_eq0000426)
+     LUT4_D:I2->O          6   0.612   0.599  _mux00091 (Madd__add0001_lut<2>)
+     LUT4:I2->O            6   0.612   0.572  mux0012_cmp_eq0000444 (mux0012_cmp_eq0000444)
+     LUT4_D:I3->O          6   0.612   0.599  mux0012_cmp_eq0000464 (mux0012_cmp_eq0000)
+     LUT3_D:I2->O          1   0.612   0.387  t_11_8_cmp_eq00021_SW0 (N523)
+     LUT4:I2->O            2   0.612   0.449  t_11_8_cmp_eq00021 (t_11_8_cmp_eq0002)
+     LUT4:I1->O            9   0.612   0.727  _mux00181 (Madd__add0003_lut<1>)
+     LUT4:I2->O            5   0.612   0.541  mux0020_cmp_eq0000444 (mux0020_cmp_eq0000444)
+     LUT4_D:I3->O          7   0.612   0.605  mux0020_cmp_eq0000464 (mux0020_cmp_eq0000)
+     LUT4_D:I3->O          8   0.612   0.646  _mux0020 (_mux0020)
+     LUT4_L:I3->LO         1   0.612   0.130  mux0024_cmp_eq0000464_SW1 (N420)
+     LUT4:I2->O            9   0.612   0.727  _mux00261 (Madd__add0005_lut<1>)
+     LUT4:I2->O            5   0.612   0.541  mux0028_cmp_eq0000444 (mux0028_cmp_eq0000444)
+     LUT4_D:I3->O          7   0.612   0.605  mux0028_cmp_eq0000464 (mux0028_cmp_eq0000)
+     LUT4_D:I3->O         10   0.612   0.780  _mux0028 (_mux0028)
+     LUT3:I2->O            1   0.612   0.387  mux0032_cmp_eq0000464_SW0 (N426)
+     LUT4_D:I2->O          8   0.612   0.673  _mux00351 (_mux0035)
+     LUT4:I2->O            2   0.612   0.410  t_11_8_cmp_eq00071 (t_11_8_cmp_eq0007)
+     LUT4:I2->O            5   0.612   0.568  _mux00381 (Madd__add0008_lut<1>)
+     LUT4:I2->O            7   0.612   0.632  mux0044_cmp_eq0000444 (mux0044_cmp_eq0000444)
+     LUT4:I2->O            4   0.612   0.502  mux0044_cmp_eq0000464 (mux0044_cmp_eq0000)
+     LUT4:I3->O           28   0.612   1.072  _mux0044 (_mux0044)
+     MUXF5:S->O            1   0.641   0.360  mux0048_or0000149_SW1 (N215)
+     LUT4_D:I3->O         13   0.612   0.866  _mux00511 (_mux0051)
+     LUT4:I2->O            1   0.612   0.387  mux0052_or000093 (mux0052_or000093)
+     LUT4_D:I2->O          9   0.612   0.700  mux0052_or0000136 (mux0052_or0000)
+     LUT4:I3->O            3   0.612   0.481  _mux00541 (Madd__add0011_lut<1>)
+     LUT4:I2->O            1   0.612   0.360  mux0056_or000044 (mux0056_or000044)
+     LUT4_D:I3->O          5   0.612   0.568  mux0056_or000064 (mux0056_or000064)
+     LUT4_D:I2->O          9   0.612   0.700  _mux00581 (Madd__add0012_lut<1>)
+     LUT4_D:I3->LO         1   0.612   0.103  mux0060_or000044 (N1080)
+     LUT4:I3->O            9   0.612   0.727  mux0060_or000064 (mux0060_or000064)
+     LUT4:I2->O           10   0.612   0.780  _mux00611 (Madd__add0013_lut<2>)
+     LUT4:I2->O            1   0.612   0.360  mux0064_or0000116 (mux0064_or0000116)
+     LUT4_D:I3->O         12   0.612   0.847  mux0064_or0000136 (mux0064_or0000136)
+     LUT4_D:I2->O          7   0.612   0.605  _mux00661 (Madd__add0014_lut<1>)
+     LUT4_L:I3->LO         1   0.612   0.103  mux0068_or0000116 (mux0068_or0000116)
+     LUT4:I3->O           12   0.612   0.820  mux0068_or0000136 (mux0068_or0000136)
+     LUT4:I3->O           10   0.612   0.780  _mux00691 (Madd__add0015_lut<2>)
+     LUT4:I2->O            2   0.612   0.383  mux0072_or000044 (mux0072_or000044)
+     LUT4_D:I3->O         10   0.612   0.780  mux0072_or000064 (mux0072_or000064)
+     LUT4_D:I2->O          7   0.612   0.605  _mux00741 (Madd__add0016_lut<1>)
+     LUT4_L:I3->LO         1   0.612   0.103  mux0076_or0000116 (mux0076_or0000116)
+     LUT4:I3->O           10   0.612   0.753  mux0076_or0000136 (mux0076_or0000136)
+     LUT4:I3->O            6   0.612   0.599  _mux00781 (Madd__add0017_lut<1>)
+     LUT4:I2->O            1   0.612   0.360  mux0084_or000044 (mux0084_or000044)
+     LUT4_D:I3->O          7   0.612   0.632  mux0084_or000064 (mux0084_or000064)
+     LUT4:I2->O           13   0.612   0.839  _mux00861 (_mux0086)
+     LUT4:I3->O            8   0.612   0.646  mux0088_or0000201 (mux0088_or0000201)
+     LUT4_D:I3->O         11   0.612   0.796  _mux00901 (Madd__add0019_lut<1>)
+     LUT4:I3->O            1   0.612   0.360  mux0092_or0000171 (mux0092_or0000171)
+     LUT4:I3->O            8   0.612   0.673  mux0092_or0000214_SW0 (N128)
+     LUT4:I2->O            9   0.612   0.700  _mux00951 (_mux0095)
+     LUT4_L:I3->LO         1   0.612   0.103  mux0096_or0000201_SW0_SW0 (N378)
+     LUT4:I3->O            9   0.612   0.766  mux0096_or0000201 (mux0096_or0000201)
+     LUT3:I1->O            1   0.612   0.000  mux0096_or0000214_SW5_F (N982)
+     MUXF5:I0->O           1   0.278   0.387  mux0096_or0000214_SW5 (N502)
+     LUT4_D:I2->O         10   0.612   0.753  _mux0096 (_mux0096)
+     LUT4:I3->O            7   0.612   0.632  mux0100_or0000201 (mux0100_or0000201)
+     LUT4:I2->O            3   0.612   0.454  mux0100_or0000214 (mux0100_or0000)
+     LUT4_D:I3->O          8   0.612   0.712  _mux0100 (_mux0100)
+     LUT4:I1->O            2   0.612   0.410  t_3_0_cmp_eq00041 (t_3_0_cmp_eq0004)
+     LUT4:I2->O            1   0.612   0.000  mux0104_or0000214_SW2_G (N967)
+     MUXF5:I1->O           1   0.278   0.360  mux0104_or0000214_SW2 (N193)
+     LUT4:I3->O           16   0.612   0.882  _mux01061 (Madd__add0023_lut<1>)
+     LUT4:I3->O            4   0.612   0.502  mux0108_or000026 (mux0108_or000026)
+     LUT4:I3->O            1   0.612   0.000  mux0108_or0000214_SW2_G (N969)
+     MUXF5:I1->O           1   0.278   0.360  mux0108_or0000214_SW2 (N199)
+     LUT4_D:I3->O         13   0.612   0.839  _mux01101 (Madd__add0024_lut<1>)
+     LUT4_L:I3->LO         1   0.612   0.130  t_3_0_cmp_eq00061_SW0 (N633)
+     LUT4:I2->O            3   0.612   0.454  mux0112_or0000214_SW2 (N205)
+     LUT4:I3->O           15   0.612   0.894  _mux01141 (Madd__add0025_lut<1>)
+     LUT4:I2->O            7   0.612   0.605  mux0116_or000026 (mux0116_or000026)
+     LUT4:I3->O            1   0.612   0.000  mux0116_or0000214_SW2_G (N971)
+     MUXF5:I1->O           1   0.278   0.360  mux0116_or0000214_SW2 (N211)
+     LUT4_D:I3->O          9   0.612   0.700  _mux01181 (Madd__add0026_lut<1>)
+     LUT4:I3->O            1   0.612   0.360  answer1_or0000123_SW0_SW0 (N344)
+     LUT4_D:I3->O          3   0.612   0.481  answer1_or0000123 (answer1_or0000123)
+     LUT4:I2->O            1   0.612   0.000  answer1_mux00031 (answer1_mux0003)
+     FDE:D                     0.268          t_0
+    ----------------------------------------
+    Total                     91.239ns (48.435ns logic, 42.804ns route)
+                                       (53.1% logic, 46.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 668 / 161
+-------------------------------------------------------------------------
+Offset:              9.606ns (Levels of Logic = 8)
+  Source:            switch2 (PAD)
+  Destination:       NUM_1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: switch2 to NUM_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   1.106   1.142  switch2_IBUF (switch2_IBUF)
+     LUT2:I1->O            2   0.612   0.532  NUM_mux0000<2>2511 (N181)
+     LUT4:I0->O            1   0.612   0.360  NUM_mux0000<1>160 (NUM_mux0000<1>160)
+     LUT4:I3->O            1   0.612   0.509  NUM_mux0000<1>177 (NUM_mux0000<1>177)
+     LUT4:I0->O            1   0.612   0.509  NUM_mux0000<1>199_SW1 (N1024)
+     LUT3:I0->O            1   0.612   0.509  NUM_mux0000<1>199 (NUM_mux0000<1>199)
+     LUT4:I0->O            1   0.612   0.387  NUM_mux0000<1>240 (NUM_mux0000<1>240)
+     LUT4:I2->O            1   0.612   0.000  NUM_mux0000<1>249 (NUM_mux0000<1>)
+     FDE:D                     0.268          NUM_1
+    ----------------------------------------
+    Total                      9.606ns (5.658ns logic, 3.948ns route)
+                                       (58.9% logic, 41.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_cnt_231'
+  Total number of paths / destination ports: 96 / 48
+-------------------------------------------------------------------------
+Offset:              5.087ns (Levels of Logic = 3)
+  Source:            switch2 (PAD)
+  Destination:       temp_2_0 (FF)
+  Destination Clock: clk_cnt_231 rising
+
+  Data Path: switch2 to temp_2_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   1.106   1.076  switch2_IBUF (switch2_IBUF)
+     LUT4:I3->O            1   0.612   0.387  temp_4_or00001_SW0 (N02)
+     LUT4:I2->O            4   0.612   0.499  temp_4_or00001 (temp_4_or0000)
+     FDRE:R                    0.795          temp_4_0
+    ----------------------------------------
+    Total                      5.087ns (3.125ns logic, 1.962ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 40 / 19
+-------------------------------------------------------------------------
+Offset:              5.406ns (Levels of Logic = 2)
+  Source:            NUM_1 (FF)
+  Destination:       a_to_g<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: NUM_1 to a_to_g<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              7   0.514   0.754  NUM_1 (NUM_1)
+     LUT4:I0->O            1   0.612   0.357  A1/Mrom_a_to_g41 (a_to_g_4_OBUF)
+     OBUF:I->O                 3.169          a_to_g_4_OBUF (a_to_g<4>)
+    ----------------------------------------
+    Total                      5.406ns (4.295ns logic, 1.111ns route)
+                                       (79.5% logic, 20.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 29.00 secs
+Total CPU time to Xst completion: 29.02 secs
+ 
+--> 
+
+Total memory usage is 166516 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
+

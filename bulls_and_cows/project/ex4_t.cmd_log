@@ -1,0 +1,277 @@
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/ex9/ex4_t.xst" -ofn "C:/Documents and Settings/ex9/ex4_t.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ex4_t.ucf -p xc3s100e-cp132-5 "ex4_t.ngc" ex4_t.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ex4_t_map.ncd ex4_t.ngd ex4_t.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_t_map.ncd ex4_t.ncd ex4_t.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4_t.twx ex4_t.ncd -o ex4_t.twr ex4_t.pcf -ucf ex4_t.ucf 
+bitgen -intstyle ise -f ex4_t.ut ex4_t.ncd 
