@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textsss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="600dp"
+        android:layout_height="800dp"
+        android:layout_toEndOf="@+id/buttonleft"
+        android:layout_alignBottom="@+id/buttonGesture" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="up"
+        android:id="@+id/buttonup"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/textsss"
+        android:layout_alignStart="@+id/buttonstop" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="right"
+        android:id="@+id/buttonright"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="39dp"
+        android:layout_below="@+id/buttonup"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="left"
+        android:id="@+id/buttonleft"
+        android:layout_alignTop="@+id/buttonright"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="down"
+        android:id="@+id/buttondown"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="stop"
+        android:id="@+id/buttonstop"
+        android:layout_alignTop="@+id/buttonright"
+        android:layout_alignStart="@+id/buttondown" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="按键模式"
+        android:id="@+id/buttonPress"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="手势模式"
+        android:id="@+id/buttonGesture"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        />
+
+</RelativeLayout>
