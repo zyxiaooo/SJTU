@@ -1,0 +1,16 @@
+There are 4 files in the folder:
+
+pj2.l:
+	The lex file of project2
+pj2.y:
+	The yacc file of project2
+makefile:
+	To compile the project
+Readme:
+	The file that you are reading now
+
+The executable program is called scc after you make the project. So the command to execute the program is:
+	./scc data.in data.out
+
+This program generate the llvm intermediate code for source programs.For more details you can check codes and notes of pj2.l, pj2.y and project report. 
+I do two extra parts: Error detection and some code optimazation. For more details you can check codes and notes of pj2.y and project report. 

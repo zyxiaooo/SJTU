@@ -1,0 +1,16 @@
+There are 4 files in the folder:
+
+pj1.l:
+	The lex file of project1
+pj1.y:
+	The yacc file of project1
+makefile:
+	To compile the project
+Readme:
+	The file that you are reading now
+
+The executable program is called pj1 after you make the project. So the command to execute the program is:
+	./pj1 data.in data.out
+
+This program creates the parsing tree and store all the terminal information. For more details you can check codes and notes of pj1.y.
+I also implemented several error detection methods and return line number and type imformation(such as syntax err; unexpected charactor;expected ";";expected")" etc)
