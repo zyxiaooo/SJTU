@@ -1,0 +1,1 @@
+../../../../mailcore2-ios/include/MailCore/MCArray.h

@@ -1,0 +1,6 @@
+platform :ios, '9.3'
+target 'AutoAlarm' do
+pod 'mailcore2-ios', '~> 0.5.1'
+end
+
+
