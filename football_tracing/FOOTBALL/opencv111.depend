@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1444552231 source:c:\users\big\desktop\opencv\opencv111\main.cpp
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+
+1464348703 source:c:\users\big\desktop\opencv\opencv_video\main.cpp
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	<stdio.h>
+	<cstring>
+	<cstdlib>
+	<map>
+	<cmath>
+
+1464493893 source:c:\users\big\desktop\opencv\opencv_video3\main.cpp
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	<stdio.h>
+	<cstring>
+	<cstdlib>
+	<map>
+	<cmath>
+
+1466224986 source:c:\users\big\desktop\opencv\opencvvideo_5\main.cpp
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv.hpp>
+	<stdio.h>
+	<cstring>
+	<cstdlib>
+	<map>
+	<cmath>
+
