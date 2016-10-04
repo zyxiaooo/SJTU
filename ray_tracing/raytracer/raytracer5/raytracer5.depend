@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1455756164 source:c:\users\big\desktop\opencv\raytracer5\colour.cpp
+	"Colour.h"
+
+1455756164 c:\users\big\desktop\opencv\raytracer5\colour.h
+
+1455756164 source:c:\users\big\desktop\opencv\raytracer5\sphere.cpp
+	<math.h>
+	"Sphere.h"
+
+1459742139 c:\users\big\desktop\opencv\raytracer5\sphere.h
+	"Vector3D.h"
+	"Colour.h"
+
+1455756164 c:\users\big\desktop\opencv\raytracer5\vector3d.h
+
+1455756164 source:c:\users\big\desktop\opencv\raytracer5\vector3d.cpp
+	<math.h>
+	"Vector3D.h"
+
